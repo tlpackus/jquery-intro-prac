@@ -1,13 +1,6 @@
 $(document).ready(function() {
-  $("h1").click(function() {
-    alert("This is a header.");
-  });
-
   $("p").click(function() {
-    alert("This is an image.");
-  });
-
-  $("img").click(function() {
-    alert("This is an image.");
+    $(".walrus-showing").show();
+    $(".walrus-hidden").hide();
   });
 });
